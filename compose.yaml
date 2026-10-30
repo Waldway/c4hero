@@ -1,0 +1,6 @@
+services:
+  c4hero:
+    build: .
+    ports:
+      - "127.0.0.1:3004:80"
+    restart: unless-stopped
